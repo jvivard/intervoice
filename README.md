@@ -116,7 +116,7 @@
    TAVILY_API_KEY=your-tavily-key
    ```
    
-   **Get your Claude API key**: Visit https://console.anthropic.com and sign up for free $5 credit!
+   **Get your Claude API key**: Visit https://console.anthropic.com 
 
 4. **Set up Firebase credentials**
    Create a `credentials` folder and put your `firebase_key.json` inside it
