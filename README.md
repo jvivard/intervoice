@@ -64,10 +64,6 @@
 - **Firestore** - NoSQL document database for scalable data storage
 - **Firebase Auth** - Authentication and user management
 
-### DevOps & Deployment
-- **Google Cloud Platform** - Cloud infrastructure and hosting
-- **CI/CD Pipeline** - Automated testing and deployment
-
 ## 📦 Installation & Setup
 
 ### Prerequisites
