@@ -198,14 +198,6 @@ Once the backend is running, visit `http://localhost:8000/docs` for interactive 
 
 Intervoice now uses **Claude 3.5** by Anthropic as the primary AI model, offering superior reasoning and analysis capabilities compared to Gemini.
 
-### Why Claude?
-- ✅ **Better Reasoning**: Superior at complex analysis and feedback
-- ✅ **Larger Context**: 200K tokens vs Gemini's smaller limit
-- ✅ **Better JSON**: More reliable structured outputs
-- ✅ **Streaming Support**: Smooth real-time responses
-- ✅ **Hybrid Support**: Can run alongside Gemini
-
-### Migration Status
 - ✅ **Summarizer Agent** - Migrated (using Haiku for cost-efficiency)
 - ✅ **Question Generator** - Migrated (using Sonnet for quality)
 - ⏳ **Answer Generator** - Ready to migrate
@@ -232,47 +224,11 @@ ANSWER_GEN_USE_CLAUDE=false  # Keep on Gemini
 - 📊 **Progress Tracker**: `MIGRATION_PROGRESS.md`
 - ⚡ **Quick Start**: `QUICK_START_CLAUDE.md`
 
-## 🛠️ Troubleshooting
-
-### Common Issues
-
-#### Claude API Key Not Found
-- **Issue**: `ANTHROPIC_API_KEY not found`
-- **Solution**: 
-  1. Get API key from https://console.anthropic.com
-  2. Add to `backend/.env`: `ANTHROPIC_API_KEY=sk-ant-your-key`
-  3. Verify with: `python backend/services/test_claude.py`
-
-#### Python Version Compatibility
-- **Issue**: `triton==2.0.0` and `click==8.2.1` require Python 3.10+
-- **Solution**: Use Python 3.10+ and install from `requirements_claude.txt` or `requirements_working.txt`
-
-#### Missing Dependencies
-- **Issue**: `ModuleNotFoundError` for various packages
-- **Solution**: Install missing packages individually:
-  ```bash
-  pip install firebase-admin google-adk google-cloud-secret-manager
-  ```
-
-#### Triton Installation Issues
-- **Issue**: `triton==2.0.0` has no compatible builds for some platforms
-- **Solution**: Use `requirements_working.txt` which excludes problematic packages
-
-#### Backend Import Errors
-- **Issue**: `ModuleNotFoundError: No module named 'backend'`
-- **Solution**: Run uvicorn from project root, not from backend directory:
-  ```bash
-  # Correct (from project root)
-  uvicorn backend.app:app --reload --port 8000
-  
-  # Incorrect (from backend directory)
-  cd backend
-  uvicorn app:app --reload --port 8000
-  ```
 
 
-```
 
+
+`
 
 
 ## 🤝 Contributing
