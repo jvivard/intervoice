@@ -82,9 +82,10 @@
 
 1. **Clone the repository**
    ``
+   git clone https://github.com/jvivard/intervoice
    ```
 
-2. **Set up Python environment**
+3. **Set up Python environment**
    ```bash
    cd backend
    python -m venv venv
@@ -97,7 +98,7 @@
    # pip install -r requirements_working.txt
    ```
 
-3. **Configure environment variables**
+4. **Configure environment variables**
    Create a `.env` file in the `backend/` directory:
    
    ```bash
@@ -118,20 +119,20 @@
    
    **Get your Claude API key**: Visit https://console.anthropic.com 
 
-4. **Set up Firebase credentials**
+5. **Set up Firebase credentials**
    Create a `credentials` folder and put your `firebase_key.json` inside it
 
    ```bash
    FIREBASE_KEY_PATH=credentials/firebase_key.json #Or change it to your actual path of firebase_key.json
    ```
 
-5. **Test Claude setup (optional but recommended)**
+6. **Test Claude setup (optional but recommended)**
    ```bash
    # From project root
    python backend/services/test_claude.py
    ```
 
-6. **Run the backend server**
+7. **Run the backend server**
    **Important:** Run from the project root directory, not from inside the backend folder
    ```bash
    # From project root
