@@ -270,24 +270,10 @@ ANSWER_GEN_USE_CLAUDE=false  # Keep on Gemini
   uvicorn app:app --reload --port 8000
   ```
 
-### Alternative Installation Methods
 
-#### Using Conda (Recommended)
-```bash
-# Create conda environment with Python 3.10
-conda create --name intelliview python=3.10
-conda activate intelliview
-
-# Install dependencies
-pip install -r backend/requirements_working.txt
 ```
 
-#### Using Docker
-```bash
-# Build and run with Docker
-docker build -t intelliview .
-docker run -p 8080:8080 intelliview
-```
+
 
 ## 🤝 Contributing
 
