@@ -15,6 +15,7 @@ migrate_working_dir/
 # firebase
 .firebase/
 .firebaserc
+firebase_options.dart
 
 # IntelliJ related
 *.iml
