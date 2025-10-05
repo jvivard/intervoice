@@ -1,0 +1,15 @@
+.venv
+.vscode
+.pytest_cache
+
+# compiled bytecode files
+__pycache__/
+*.py[cod]
+
+# macOS system files
+.DS_Store
+
+# secrets
+.env 
+credentials/
+.tokens/*.json

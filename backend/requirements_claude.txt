@@ -1,0 +1,97 @@
+# Core FastAPI and web framework dependencies
+fastapi==0.115.12
+uvicorn==0.34.2
+python-dotenv==1.1.0
+python-multipart==0.0.20
+websockets==15.0.1
+starlette==0.46.2
+sse-starlette==2.3.5
+
+# Pydantic for data validation
+pydantic==2.11.5
+pydantic-settings==2.9.1
+pydantic_core==2.33.2
+
+# Firebase and authentication
+firebase-admin==6.8.0
+google-auth==2.40.2
+google-auth-httplib2==0.2.0
+PyJWT==2.10.1
+
+# Google Cloud services (core - keep for Firestore, Storage, etc.)
+google-cloud-core==2.4.3
+google-cloud-firestore==2.20.2
+google-cloud-secret-manager==2.23.3
+google-cloud-resource-manager==1.14.2
+google-cloud-storage==2.19.0
+google-cloud-bigquery==3.33.0
+google-cloud-trace==1.16.1
+
+# === REPLACED: Google AI with Claude ===
+# google-adk==1.1.1  # REMOVED - using custom orchestration
+# google-genai==1.18.0  # REMOVED - using Claude instead
+# google-cloud-aiplatform==1.95.1  # REMOVED - using Claude API
+
+# Claude AI (Anthropic)
+anthropic==0.40.0
+
+# Optional: LangChain for advanced orchestration (recommended)
+langchain==0.3.13
+langchain-anthropic==0.3.3
+langgraph==0.2.62
+langchain-community==0.3.13
+
+# Search functionality (replaces Google Search tool)
+tavily-python==0.5.0
+# Alternative: serpapi==2.4.2
+
+# Optional: Audio support for mock interviews
+# elevenlabs==1.93.0  # Text-to-Speech
+# openai-whisper==20231117  # Speech-to-Text
+# OR keep Google Speech services:
+# google-cloud-speech==2.32.0
+# google-cloud-texttospeech==2.16.3
+
+# Google API client (may still be needed for some services)
+google-api-core==2.24.2
+google-api-python-client==2.170.0
+googleapis-common-protos==1.70.0
+
+# HTTP and networking
+httpx==0.28.1
+httpx-sse==0.4.0
+httpcore==1.0.9
+requests==2.32.3
+urllib3==2.4.0
+httplib2==0.22.0
+
+# Data processing
+numpy==1.26.4
+pandas==2.0.3
+aiofiles==24.1.0
+
+# PDF processing
+PyMuPDF==1.26.0
+
+# Web scraping and content extraction
+beautifulsoup4==4.12.3
+lxml==5.4.0
+duckduckgo_search==8.0.2
+
+# Utilities
+click==8.2.1
+certifi==2025.4.26
+charset-normalizer==3.4.2
+python-dateutil==2.9.0.post0
+PyYAML==6.0.2
+six==1.17.0
+tzlocal==5.3.1
+
+# Development and testing
+pytest==8.3.5
+pytest-asyncio==1.0.0
+
+# Note: This requirements file replaces Google ADK/Gemini with Claude API
+# All Firebase, Firestore, and other Google Cloud services remain unchanged
+# Audio support can be added with ElevenLabs/Whisper or Google Speech services
+
