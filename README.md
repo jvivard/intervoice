@@ -72,10 +72,10 @@
 
 ### Prerequisites
 - **Flutter SDK** (3.0+)
-- **Python** (3.10+) - **Required for compatibility with dependencies**
+- **Python** (3.10+) - 
 - **Node.js** (16+)
 - **Firebase Project** with Firestore and Authentication enabled
-- **Claude API Key** from Anthropic (get free $5 credit at https://console.anthropic.com)
+- **Claude API Key** 
 - **Google Cloud Project** (Optional - for legacy Gemini support)
 
 ### 🔧 Backend Setup
