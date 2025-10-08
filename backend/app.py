@@ -13,7 +13,7 @@ origins = [
     "http://localhost:3000",            
     "http://localhost:8080",           
     "http://localhost:5000",            
-    "http://localhost",                 # for Flutter Web dev with any port
+    "http://localhost",                
     "https://aiview-fa69f.web.app",    # for production
     "https://aiview-fa69f.firebaseapp.com"
 ]
