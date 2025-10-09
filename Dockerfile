@@ -4,7 +4,6 @@ FROM python:3.10-slim
 # Set working directory
 WORKDIR /app
 
-# Copy your code
 COPY . .
 
 # Install dependencies
