@@ -14,7 +14,6 @@ RUN pip install -r backend/requirements.txt
 ENV PYTHONPATH="/app"
 ENV PORT=8080
 
-# Expose port (Cloud Run uses 8080 by default)
 EXPOSE 8080
 
 # Run FastAPI app with uvicorn
