@@ -47,7 +47,6 @@ static const FirebaseOptions web = FirebaseOptions(
 );
 ```
 
-**Replace all `YOUR_*_HERE` with the actual values you get from the Firebase Console.**
 
 ## Step 1: Enable Google APIs
 
