@@ -143,7 +143,6 @@
    ```
 
 2. **Install Flutter dependencies**
-   ```bash
    flutter pub get
    ```
 
