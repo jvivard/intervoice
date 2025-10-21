@@ -130,7 +130,6 @@
 
 7. **Run the backend server**
    **Important:** Run from the project root directory, not from inside the backend folder
-   ```bash
    # From project root
    uvicorn backend.app:app --reload --port 8000
    ```
